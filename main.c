@@ -86,7 +86,7 @@ int main() {
     for (timer = time; timer >= 0; timer--) {
         Sleep(500);
         if (timer > 1) {
-            printf("\n%d minute remaining", timer);
+            printf("\n%d minutes remaining", timer);
         }
         else if (timer == 1) {
             printf("\n%d minute remaining", timer);
